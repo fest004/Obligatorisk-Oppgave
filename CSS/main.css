@@ -1,3 +1,31 @@
 body {
-	background-color: gray;
+  min-height: 100vh;
+  background-image: linear-gradient(transparent, #0c0f12 65%), url('../images/terrorists-standing.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.title-container {
+	height: 300px;
+	width: 550px;
+	display: flex;
+	justify-content: flex-end;	
+	align-items: flex-end;
+}
+
+#title {
+	transition: all 1s;
+	color: white;
+	font-family: 'BohemianTypewriter.ttf';
+	font-weight: 50;
+}
+
+#title:hover {
+	font-style: italic;
+}
+
+
+@font-face {
+    font-family: "BohemianTypewriter.ttf";
+    src: url('../Krav-dvs/BohemianTypewriter.ttf');
 }

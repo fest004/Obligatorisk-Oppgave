@@ -1,0 +1,6 @@
+#5d79ae - Blue
+#0c0f12 - Black
+#ccba7c - Dessert
+#413a27 - Brown
+#de9b35 - Orange
+
