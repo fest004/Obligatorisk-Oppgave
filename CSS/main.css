@@ -1,13 +1,15 @@
 body {
   min-height: 100vh;
+	overflow: hidden;
   background-image: linear-gradient(transparent, #0c0f12 65%), url('../images/terrorists-standing.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .title-container {
-	height: 260px;
-	width: 550px;
+	height: 40vh;
+	width: 50vw;
+	max-width: 600px;
 	display: flex;
 	justify-content: flex-end;	
 	align-items: flex-end;
@@ -36,13 +38,11 @@ body {
 	transition: all 1s;
 	display: flex; 
 	position: relative;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	align-items: flex-end;
 	margin: auto;
+	padding-bottom: 100px;
 	width: 220px; 
-	height: 350px;
+	height: 200px;
 }
 
 #button-wrapper:hover {
@@ -53,10 +53,10 @@ body {
 	transition: all 1s;
 	border: 3px solid white;
 	width: 100%;
-	height: 25%;
+	height: 40%;
 	color: white;
 	text-align: center;
-	line-height: 90px;
+	line-height: 80px;
 	text-decoration: none;
 	font-size: 4rem;
 	font-family: 'CounterStrikeFont';
