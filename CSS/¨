@@ -7,7 +7,9 @@ body {
 }
 
 .flashcard-container {
+	/*
 	border: 2px solid red;
+	*/
 	display: flex;
 	justify-content: space-evenly;
 	margin: auto;
@@ -18,7 +20,6 @@ body {
 }
 
 .flashcard {
-	z-index: 1;
 	background: #383837;
 	position: relative;
 	height: 44%;
@@ -42,8 +43,7 @@ body {
 }
 
 .flashcard:hover > img.flashcard-img {
-	transition-delay: 2s;
-	transition: all 0.8s ease-in-out;
+	transition: all 1s ease-in-out;
 	transform: translateY(-5px);
 	opacity: 0;
 }
@@ -62,8 +62,10 @@ body {
 	transform: translateY(-5px);
 }
 
-.row-2 {
+#row-2 {
+	/*
 	border: 2px solid blue;
+	*/
 	position: absolute;
 	display: flex;
 	justify-content: space-evenly;
