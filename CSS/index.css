@@ -6,10 +6,9 @@ body {
 	background-repeat: no-repeat;
 }
 
+/* Properties for the parent div of the flashcards */
 .flashcard-container {
-	/*
 	border: 2px solid red;
-	*/
 	display: flex;
 	justify-content: space-evenly;
 	margin: auto;
@@ -19,6 +18,7 @@ body {
 
 }
 
+/* Properties of the main flashcards with standard size*/
 .flashcard {
 	z-index: 1;
 	background: #383837;
@@ -29,6 +29,8 @@ body {
 	box-shadow: 5px 8px #1B2331;
 }
 
+
+/*Properties of images located on the different flashcards*/
 .flashcard-img {
 	transition: all 1s;
 	width: 80%;
@@ -41,18 +43,20 @@ body {
 	padding-top: 10%;
 }
 
-.flashcard:hover  {
-	transition: all 1s;
+/* Making the flashcard slightly raise when hovered, with a transition time of one second, eased*/
+.flashcard:hover {
+	transition: all 1s ease-in-out;
 	transform: translateY(-5px);
 }
 
+/* Making the picture fade in and out on hover */
 .flashcard:hover > img.flashcard-img {
-	transition-delay: 2s;
 	transition: all 0.8s ease-in-out;
 	transform: translateY(-5px);
 	opacity: 0;
 }
 
+/* Setting 'slightly' different width properties for the extended flashcard in the bottom right*/
 .flashcard-extended {
 	background: #383837;
 	position: relative;
@@ -62,6 +66,7 @@ body {
 	box-shadow: 5px 8px #1B2331;
 }
 
+/* Applying same hover effects on the extended flashcard*/ 
 .flashcard-extended:hover {
 	transition: all 1s;
 	transform: translateY(-5px);
