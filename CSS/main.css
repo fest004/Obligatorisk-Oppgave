@@ -15,9 +15,6 @@ body {
 	align-items: flex-end;
 }
 
-
-
-
 #title {
 	transition: all 0.5s;
 	overflow: hidden;
@@ -27,12 +24,9 @@ body {
 	font-weight: 20;
 }
 
-
-
 #title:hover {
 	transform: skewX(-20deg);
 }
-
 
 #button-wrapper {
 	transition: all 1s;
@@ -68,7 +62,6 @@ body {
 	font-size: 3rem;
 }
 
-
 /* -- Declaring fonts -- */ 
 @font-face {
     font-family: 'BohemianTypewriter' 
@@ -80,8 +73,7 @@ body {
 	src: url(../Fonts/cs_regular.ttf);
 }
 
-
-
+/*Ignore this part hehe <3 */
 #easter-egg {
 	display: flex;
 	justify-content: flex-end;
