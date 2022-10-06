@@ -30,38 +30,34 @@ body {
 
 /*Styling button, pretty non dynamically :/ */
 #button-wrapper {
+	border: 2px solid white;
 	transition: all 1s;
 	display: flex; 
-	position: relative;
-	align-items: flex-end;
+	align-items: center;
 	margin: auto;
-	padding-bottom: 100px;
+	margin-top: 12vh;
 	width: 220px; 
-	height: 200px;
+	height: 13vh;
 }
 
 #button-wrapper:hover {
 	width: 300px;
 }
+
+#button-wrapper:hover > #button-link-text {
+	font-size: 3rem;
+}
 	
-#button-link {
+#button-link-text {
 	transition: all 1s;
-	border: 3px solid white;
 	width: 100%;
-	height: 40%;
 	color: white;
 	text-align: center;
-	line-height: 80px;
 	text-decoration: none;
 	font-size: 4rem;
 	font-family: 'CounterStrikeFont';
 }
 
-
-#button-link:hover {
-	border: 1.5px solid white;
-	font-size: 3rem;
-}
 
 /* -- Declaring fonts -- */ 
 @font-face {
