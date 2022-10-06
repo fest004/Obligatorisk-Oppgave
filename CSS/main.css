@@ -5,7 +5,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
+/*Container that scales with website, atleast with my dimensions and the tasks dimension*/
 .title-container {
 	height: 40vh;
 	width: 50vw;
@@ -15,9 +15,9 @@ body {
 	align-items: flex-end;
 }
 
+/*Styling the title, adding some flair with hover*/
 #title {
 	transition: all 0.5s;
-	overflow: hidden;
 	color: white;
 	font-family: 'CounterStrikeFont';
 	font-size: 1.5rem;
@@ -28,6 +28,7 @@ body {
 	transform: skewX(-20deg);
 }
 
+/*Styling button, pretty non dynamically :/ */
 #button-wrapper {
 	transition: all 1s;
 	display: flex; 
