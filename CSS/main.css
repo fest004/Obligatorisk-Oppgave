@@ -61,7 +61,7 @@ body {
 
 /* -- Declaring fonts -- */ 
 @font-face {
-    font-family: 'BohemianTypewriter' 
+    font-family: 'BohemianTypewriter';
     src: url('../Fonts/BohemianTypewriter.ttf');
 }
 
